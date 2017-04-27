@@ -85,3 +85,81 @@ I call this system ["CMS Versioning (CMSver)](/VERSIONING.md) Under this scheme,
 
 
 [Start page](./)
+
+<!--the Google+ link url; 
+    base = https://plus.google.com/share? --> 
+
+<a href="https://plus.google.com/share?
+    url=http://tomhohenstein.com{{ page.url }}
+    &hl=en-US" 
+    onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+
+    <!-- use the google+ logo for the link --> 
+    <img 
+        alt="..." 
+        class="footer-icon" 
+        src="{{ site.baseurl }}/assets/img/social-icons/btn_white.png">
+</a> 
+
+
+
+<!--the Google+ link url; 
+    base = https://plus.google.com/share? --> 
+
+<a href="https://plus.google.com/share?
+    url=http://tomhohenstein.com{{ page.url }}
+    &hl=en-US" 
+    onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+
+    <!-- use the google+ logo for the link --> 
+    <img 
+        alt="..." 
+        class="footer-icon" 
+        src="{{ site.baseurl }}/assets/img/social-icons/btn_white.png">
+</a> 
+
+<!--the LinkedIn base url 
+    http://www.linkedin.com/shareArticle?mini=true --> 
+
+<a href="http://www.linkedin.com/shareArticle
+    ?mini=true
+    &url={{ site.url }}{{ page.url }}
+    &title={{ page.title }}
+    &source={{ site.title }}">
+
+    <!-- use the linkedin logo for the link --> 
+    <img alt="..." 
+        class="footer-icon"
+        src="{{ site.baseurl }}/assets/img/footer-icons/LinkedIn-InBug-2CRev.png">
+
+</a> 
+
+<!--the Facebook base 
+    https://www.facebook.com/dialog/share? --> 
+
+<a href="https://www.facebook.com/dialog/share
+    ?app_id=946372735391329&display=popup
+    &href={{ site.url }}{{ page.url }}
+    &redirect_uri={{ site.url }}{{ page.url }}">
+
+    <!-- use the facebook logo for the link --> 
+    <img 
+        alt="..." 
+        class="footer-icon" 
+        src="{{ site.baseurl }}/assets/img/social-icons/FB-f-Logo__blue_50.png">
+</a>
+
+<!--the Twitter base 
+    https://twitter.com/share --> 
+
+<a href="https://twitter.com/share?
+    text={{ page.title }}
+    &url={{ page.shorturl }}
+    &via=tomhohenstein">
+
+    <!-- use the twitter logo for the link --> 
+    <img alt="..." 
+        class="footer-icon" 
+        src="{{ site.baseurl }}/assets/img/footer-icons/Twitter_logo_blue.png">
+
+</a>

@@ -83,6 +83,8 @@ Precedence for two pre-release versions with the same RELEASE, MAJOR, MINOR and 
 Example: 1.0.0.0-alpha < 1.0.0.0-alpha.1 < 1.0.0.0-alpha.beta < 1.0.0.0-beta < 1.0.0.0-beta.2 < 1.0.0.0-beta.11 < 1.0.0.0-rc.1 < 1.0.0.0.
 
 
+---
+
 
 
 [Start page](./)

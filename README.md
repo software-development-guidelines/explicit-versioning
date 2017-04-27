@@ -60,9 +60,8 @@ I call this system ["CMS Versioning (CMSver)](/VERSIONING.md) Under this scheme,
    <script src="https://apis.google.com/js/platform.js" async defer></script>
    <g:plus action="share"></g:plus>
  
+---
 
----
----
 
 
 [Start page](./)

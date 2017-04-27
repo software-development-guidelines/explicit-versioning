@@ -21,6 +21,9 @@ As a responsible developer you will, of course, want to verify that any package 
 If all of this sounds desirable, all you need to do to start using Semantic Versioning is to declare that you are doing so and then follow the rules. Link to this website from your README so others know the rules and can benefit from them.
 
 
+---
+
+
 
 
 [Start page](./)

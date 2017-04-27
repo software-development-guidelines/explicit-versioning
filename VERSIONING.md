@@ -3,13 +3,13 @@ Index of pages:
 
 * [Summary](/README.md)
 * [Introduction](/README.md)
-* [PHP CMS Versioning (PHPVer)](/VERSIONING.md)
+* [CMS Versioning (CMSver)](/VERSIONING.md)
 * [Why Explicit Versioning](/WHY.md)
 * [FAQ](/FAQ.md)
 * [ABOUT](/ABOUT.md)
 
 
-# PHP CMS Versioning (PHPVer)
+# CMS Versioning (CMSver)
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](http://tools.ietf.org/html/rfc2119).
 

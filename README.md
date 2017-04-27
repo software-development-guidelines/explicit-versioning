@@ -1,16 +1,16 @@
-# - PHP CMS Versioning DRAFT -
+# - CMS Versioning (CMSver) DRAFT -
 
 Index of pages:
 ---------------
 
 * [Summary](/README.md#Summary)
 * [Introduction](/README.md#Introduction)
-* [PHP CMS Versioning (PHPVer)](/VERSIONING.md)
+* [CMS Versioning (CMSver)](/VERSIONING.md)
 * [Why Explicit Versioning](/WHY.md)
 * [FAQ](/FAQ.md)
 * [ABOUT](/ABOUT.md)
 
-# - PHP CMS Versioning DRAFT -
+# - CMS Versioning (CMSver) DRAFT -
 
 
 # <a name="Summary"></a>Summary
@@ -24,7 +24,7 @@ Given a version number RELEASE.ENHANCED.FEATURE.PATCH, increment the:
 
 Additional labels for pre-release, release candidate and build metadata are available as extensions to the RELEASE.ENHANCED.FEATURE.PATCH format.
 
-**If you'd like to leave feedback, please [open an issue on GitHub](https://github.com/colomet/php-cms-versioning/issues).**
+**If you'd like to leave feedback, please [open an issue on GitHub](https://github.com/colomet/CMSver/issues).**
 
 Given 1.0.0.0 as the first version for a Production Release:
 
@@ -43,7 +43,7 @@ Given 1.0.0.0 as the first version for a Production Release:
   * Security Fix(es) will increment version to 1.0.0.1.
   * Bug Fix(es) will increment version to 1.0.0.1.
   
-# - PHP CMS Versioning DRAFT -  
+# - CMS Versioning (CMSver) DRAFT -  
 
 # <a name="Introduction"></a>Introduction
 
@@ -60,7 +60,7 @@ These rules are based on but not necessarily limited to pre-existing widespread 
 
 For this system to work, you first need to declare a public API. This may consist of documentation or be enforced by the code itself. Regardless, it is important that this API be clear and precise. Once you identify your public API, you communicate changes to it with specific increments to your version number. Consider a version format of W.X.Y.Z (Release.Enhanced.Feature.Patch). Bug fixes not affecting the API increment the patch version, backwards compatible additions/changes increment the Feature version, backwards incompatible changes increment the Breaking version and backwards incompatible API changes increment the Release version.
 
-I call this system ["PHP CMS Versioning" (PHPVer)](/VERSIONING.md) Under this scheme, version numbers and the way they change convey meaning about the underlying code and what has been modified from one version to the next.
+I call this system ["CMS Versioning (CMSver)](/VERSIONING.md) Under this scheme, version numbers and the way they change convey meaning about the underlying code and what has been modified from one version to the next.
 
 
 

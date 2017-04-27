@@ -3,7 +3,7 @@ Index of pages:
 
 * [Summary](/README.md)
 * [Introduction](/README.md)
-* [PHP CMS Versioning (PHPVer)](/VERSIONING.md)
+* [CMS Versioning (CMSver)](/VERSIONING.md)
 * [Why Explicit Versioning](/WHY.md)
 * [FAQ](/FAQ.md)
 * [ABOUT](/ABOUT.md)
@@ -32,11 +32,11 @@ Having to bump major versions to release incompatible changes means you'll think
 
 ## Documenting the entire public API is too much work!
 
-It is your responsibility as a professional developer to properly document software that is intended for use by others. Managing software complexity is a hugely important part of keeping a project efficient, and that's hard to do if nobody knows how to use your software, or what methods are safe to call. In the long run, PHP CMS Versioning, and the insistence on a well defined public API can keep everyone and everything running smoothly.
+It is your responsibility as a professional developer to properly document software that is intended for use by others. Managing software complexity is a hugely important part of keeping a project efficient, and that's hard to do if nobody knows how to use your software, or what methods are safe to call. In the long run, CMS Versioning (CMSver), and the insistence on a well defined public API can keep everyone and everything running smoothly.
 
 ## What do I do if I accidentally release a backwards incompatible change as a FEATURE version?
 
-As soon as you realize that you've broken the PHP CMS Versioning spec, fix the problem and release a new minor version that corrects the problem and restores backwards compatibility. Even under this circumstance, it is unacceptable to modify versioned releases. If it's appropriate, document the offending version and inform your users of the problem so that they are aware of the offending version.
+As soon as you realize that you've broken the CMS Versioning (CMSver) spec, fix the problem and release a new minor version that corrects the problem and restores backwards compatibility. Even under this circumstance, it is unacceptable to modify versioned releases. If it's appropriate, document the offending version and inform your users of the problem so that they are aware of the offending version.
 
 ## What should I do if I update my own dependencies without changing the public API?
 
@@ -45,13 +45,13 @@ Software that explicitly depends on the same dependencies as your package should
 
 ## What if I inadvertently alter the public API in a way that is not compliant with the version number change (i.e. the code incorrectly introduces a major breaking change in a patch release)
 
-Use your best judgment. If you have a huge audience that will be drastically impacted by changing the behavior back to what the public API intended, then it may be best to perform a ENHANCED version release, even though the fix could strictly be considered a patch release. Remember, PHP CMS Versioning is all about conveying meaning by how the version number changes. If these changes are important to your users, use the version number to inform them.
+Use your best judgment. If you have a huge audience that will be drastically impacted by changing the behavior back to what the public API intended, then it may be best to perform a ENHANCED version release, even though the fix could strictly be considered a patch release. Remember, CMS Versioning (CMSver) is all about conveying meaning by how the version number changes. If these changes are important to your users, use the version number to inform them.
 
 ## How should I handle deprecating functionality?
 
 Deprecating existing functionality is a normal part of software development and is often required to make forward progress. When you deprecate part of your public API, you should do two things: (1) update your documentation to let users know about the change, (2) issue a new minor release with the deprecation in place. Before you completely remove the functionality in a new ENHANCED version release there should be at least one FEATURE version release that contains the deprecation so that users can smoothly transition to the new API.
 
-## Does PHP CMS Versioning have a size limit on the version string?
+## Does CMS Versioning (CMSver) have a size limit on the version string?
 
 No, but use good judgment. A 255 character version string is probably overkill, for example. Also, specific systems may impose their own limits on the size of the string.
 

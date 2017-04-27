@@ -48,12 +48,6 @@ For this system to work, you first need to declare a public API. This may consis
 
 I call this system ["CMS Versioning (CMSver)](/VERSIONING.md) Under this scheme, version numbers and the way they change convey meaning about the underlying code and what has been modified from one version to the next.
 
-   <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-   
-   <script src="https://apis.google.com/js/platform.js" async defer></script>
-   <g:plus action="share"></g:plus>
-
-
 ///// old---
 1. RELEASE version when you make incompatible API changes,
 1. MAJOR version when you add functionality in a backwards-incompatible manner,
@@ -61,27 +55,13 @@ I call this system ["CMS Versioning (CMSver)](/VERSIONING.md) Under this scheme,
 1. PATCH version when you make backwards-compatible bug fixes.
 
 
+   <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+   
+   <script src="https://apis.google.com/js/platform.js" async defer></script>
+   <g:plus action="share"></g:plus>
+ 
 
-
-
-<div class="share-page">
-    Share this on &rarr;
-    <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ @_Colomet }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a>
-    <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a>
-    <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+">Google+</a>
-	<a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on LinkedIn">LinkedIn+</a>
-</div>
---------
-
-<hr class="share-divider">
-<a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url}}"  title="Share on Facebook" target="_blank"><i class="icon icon-social-facebook medium-icon"></i></a>
-<a href="https://twitter.com/home?status=Check this out: {{ site.url }}{{ page.url}}"  title="Share on Twitter" target="_blank"><i class="icon icon-social-twitter medium-icon"></i></a>
-<a href="https://plus.google.com/share?url={{ site.url }}{{ page.url}}"  title="Share on Google+" target="_blank"><i class="icon icon-social-google-plus medium-icon"></i></a>
-<a href="http://www.reddit.com/submit?url={{ site.url }}{{ page.url}}&title={{ page.title }}"  title="Share on Reddit" target="_blank"><i class="icon icon-social-reddit medium-icon"></i></a>
-<a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url}}&title={{ page.title }}"  title="Share on LinkedIn" target="_blank"><i class="icon icon-social-linkedin medium-icon"></i></a>
-<a href="mailto:?subject={{ page.title }}&body=Hey! Please check this article out. It may be interesting for you. {{ site.url }}{{ page.url}}"  title="Share by e-mail" target="_blank"><i class="icon icon-mail medium-icon"></i></a>
-
-
+====================
 
 
 [Start page](./)

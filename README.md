@@ -48,18 +48,11 @@ For this system to work, you first need to declare a public API. This may consis
 
 I call this system ["CMS Versioning (CMSver)](/VERSIONING.md) Under this scheme, version numbers and the way they change convey meaning about the underlying code and what has been modified from one version to the next.
 
-   <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>|<script src="https://apis.google.com/js/platform.js" async defer></script>
-   <g:plus action="share"></g:plus>
-   ------ | ------
-   fb
-   <div class="fb-share-button" data-href="{{site.url}}{{page.url}}" data-layout="button_count" style="position: relative; top: -8px; left: 33px;"></div>
-   1
-   <!-- Inserta esta etiqueta donde quieras que aparezca Botón Compartir. -->
-   <div class="g-plus" data-action="share" data-height="24"></div>
-   2
+   <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
    
-   3
-   <g:plus action="share" ...></g:plus>
+   <script src="https://apis.google.com/js/platform.js" async defer></script>
+   <g:plus action="share"></g:plus>
+
 
 ///// old---
 1. RELEASE version when you make incompatible API changes,
@@ -70,17 +63,6 @@ I call this system ["CMS Versioning (CMSver)](/VERSIONING.md) Under this scheme,
 
 
 
-
-
-We recently moved this blog from WordPress to Jekyll and created a site structure from the plain vanilla install of Jekyll. The first thing I noticed after moving our posts from WordPress was the absence of plugins for adding share buttons in blog posts and pages, so I made a simple static one of my own.
-
-You can read about why we made the choice of moving from WordPress to Jekyll in my previous blog post. In this post I will share the code snippet I am using to create pretty little share buttons for sharing my posts on Twitter, Facebook and Google Plus. I will also show how you can extend it to add more services like Reddit, LinkedIn, Tumblr etc.
-Share buttons in Jekyll posts
-
-In order to add share buttons to my posts, I used the share URLs of the social networking sites such as Twitter, Facebook and Google Plus which simply use the GET parameters passed with the URL to create the share dialog.
-Step 1: Partial include file for share buttons
-
-I created a partial HTML file in _includes folder called _ share-page.html which I added at the end of the post or page layouts after content. Find below the contents of this file. Notice the use of liquid tags such as {{ page.title }} and {{ page.url }} to automatically fetch the title and URL of the current post or page.
 
 <div class="share-page">
     Share this on &rarr;

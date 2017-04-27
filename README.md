@@ -53,6 +53,9 @@ I call this system ["CMS Versioning (CMSver)](/VERSIONING.md) Under this scheme,
    
    <!-- Inserta esta etiqueta donde quieras que aparezca Botón Compartir. -->
    <div class="g-plus" data-action="share" data-height="24"></div>
+   
+   <script src="https://apis.google.com/js/platform.js" async defer></script>
+   <g:plus action="share"></g:plus>
 
 ///// old---
 1. RELEASE version when you make incompatible API changes,

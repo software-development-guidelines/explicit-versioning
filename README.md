@@ -18,8 +18,8 @@ Index of pages:
 Given a version number RELEASE.ENHANCED.FEATURE.PATCH, increment the:
 
 1. RELEASE version when you make incompatible API changes,
-1. ENHANCED version when you add functionality in a backwards-incompatible,
-1. FEATURE version when you make backwards-compatible manner, and
+1. FEATURE version when you add functionality in a backwards-incompatible,
+1. ENHANCED version when you make backwards-compatible manner, and
 1. PATCH version when you fix bugs.
 
 Additional labels for pre-release, release candidate and build metadata are available as extensions to the RELEASE.ENHANCED.FEATURE.PATCH format.
@@ -31,10 +31,10 @@ Given 1.0.0.0 as the first version for a Production Release:
 * RELEASE:
   * Major Code Overhaul that impacts a significant number of end points in the Public Api will increment version to 2.0.0.0.
   * Major UX change that impacts in a significant way the usability will increment version to 2.0.0.0.
-* ENHANCED:
+* FEATURE:
   * Any Breaking Code Change will increment version to 1.1.0.0.
   * UX change that impacts the usability will increment version to 1.1.0.0.  
-* FEATURE:
+* ENHANCED:
   * New Features will increment version to 1.0.1.0.
   * Refracting Code that do not impact Public Api will increment version to 1.0.1.0.
   * Deprecating Code that do not impact Public Api will increment version to 1.0.1.0.
@@ -58,7 +58,7 @@ As a solution to this problem, I propose a simple set of rules and requirements 
 
 These rules are based on but not necessarily limited to pre-existing widespread common practices in use in both closed and open-source software.
 
-For this system to work, you first need to declare a public API. This may consist of documentation or be enforced by the code itself. Regardless, it is important that this API be clear and precise. Once you identify your public API, you communicate changes to it with specific increments to your version number. Consider a version format of W.X.Y.Z (Release.Enhanced.Feature.Patch). Bug fixes not affecting the API increment the patch version, backwards compatible additions/changes increment the Feature version, backwards incompatible changes increment the Breaking version and backwards incompatible API changes increment the Release version.
+For this system to work, you first need to declare a public API. This may consist of documentation or be enforced by the code itself. Regardless, it is important that this API be clear and precise. Once you identify your public API, you communicate changes to it with specific increments to your version number. Consider a version format of W.X.Y.Z (Release.Feature.Enhanced.Patch). Bug fixes not affecting the API increment the PATCH version, backwards compatible additions/changes increment the ENHANCED version, backwards incompatible changes increment the FEATURE version and backwards incompatible API changes increment the RELEASE version.
 
 I call this system ["CMS Versioning (CMSver)](/VERSIONING.md) Under this scheme, version numbers and the way they change convey meaning about the underlying code and what has been modified from one version to the next.
 

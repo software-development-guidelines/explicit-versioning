@@ -12,6 +12,25 @@ Index of pages:
 
 # CMS Versioning (CMSver)
 
+Given 1.0.0.0 as the first version for a Production Release:
+
+* RELEASE:
+  * Major Code Overhaul that impacts a significant number of end points in the Public Api will increment version to 2.0.0.0.
+  * Major UX change that impacts in a significant way the usability will increment version to 2.0.0.0.
+* MAJOR:
+  * Any Breaking Code Change will increment version to 1.1.0.0.
+  * UX change that impacts the usability will increment version to 1.1.0.0.
+* MINOR:
+  * New Features will increment version to 1.0.1.0.
+  * Refracting Code that do not impact Public Api will increment version to 1.0.1.0.
+  * Deprecating Code that do not impact Public Api will increment version to 1.0.1.0.
+  * Removing Code that do not impact Public Api will increment version to 1.0.1.0.
+  * UX change that not impacts the usability will increment version to 1.0.1.0.
+* PATCH:
+  * Security Fix(es) will increment version to 1.0.0.1.
+  * Bug Fix(es) will increment version to 1.0.0.1.
+  
+
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](http://tools.ietf.org/html/rfc2119).
 
 1. Software using Semantic Versioning MUST declare a public API. This API

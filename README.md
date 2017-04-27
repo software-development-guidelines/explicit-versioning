@@ -18,32 +18,14 @@ Index of pages:
 
 Given a version number RELEASE.MAJOR.MINOR.PATCH, increment the:
 
-1. RELEASE version when you make incompatible API changes,
-1. MAJOR version when you add functionality in a backwards-incompatible manner,
-1. MINOR version when you add functionality in a backwards-compatible manner, and
-1. PATCH version when you make backwards-compatible bug fixes.
+1. RELEASAE is incremented when changing the API, changing the UX, switching to a new recommended version or ending support for previous versions,
+1. MAJOR is incremented when adding, changing or removing code while breaking compatibility with previous versions or changing the UX,
+1. MINOR is incremented when adding, changing or removing code while remaining compatible with previous versions,
+1. FIX is incremented when a bug is fixed, or a security gap is solved.
 
 Additional labels for pre-release, release candidate and build metadata are available as extensions to the RELEASE.MAJOR.MINOR.PATCH format.
 
 **If you'd like to leave feedback, please [open an issue on GitHub](https://github.com/colomet/CMSver/issues).**
-
-Given 1.0.0.0 as the first version for a Production Release:
-
-* RELEASE:
-  * Major Code Overhaul that impacts a significant number of end points in the Public Api will increment version to 2.0.0.0.
-  * Major UX change that impacts in a significant way the usability will increment version to 2.0.0.0.
-* MAJOR:
-  * Any Breaking Code Change will increment version to 1.1.0.0.
-  * UX change that impacts the usability will increment version to 1.1.0.0.
-* MINOR:
-  * New Features will increment version to 1.0.1.0.
-  * Refracting Code that do not impact Public Api will increment version to 1.0.1.0.
-  * Deprecating Code that do not impact Public Api will increment version to 1.0.1.0.
-  * Removing Code that do not impact Public Api will increment version to 1.0.1.0.
-  * UX change that not impacts the usability will increment version to 1.0.1.0.
-* PATCH:
-  * Security Fix(es) will increment version to 1.0.0.1.
-  * Bug Fix(es) will increment version to 1.0.0.1.
   
 # - CMS Versioning (CMSver) DRAFT -  
 
@@ -66,6 +48,13 @@ For this system to work, you first need to declare a public API. This may consis
 
 I call this system ["CMS Versioning (CMSver)](/VERSIONING.md) Under this scheme, version numbers and the way they change convey meaning about the underlying code and what has been modified from one version to the next.
 
+
+
+///// old---
+1. RELEASE version when you make incompatible API changes,
+1. MAJOR version when you add functionality in a backwards-incompatible manner,
+1. MINOR version when you add functionality in a backwards-compatible manner, and
+1. PATCH version when you make backwards-compatible bug fixes.
 
 
 

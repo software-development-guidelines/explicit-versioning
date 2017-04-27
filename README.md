@@ -19,9 +19,9 @@ Index of pages:
 Given a version number RELEASE.MAJOR.MINOR.PATCH, increment the:
 
 1. RELEASE version when you make incompatible API changes,
-1. MAJOR version when you add functionality in a backwards-incompatible,
-1. MINOR version when you make backwards-compatible manner, and
-1. PATCH version when you fix bugs.
+1. MAJOR version when you add functionality in a backwards-incompatible manner,
+1. MINOR version when you add functionality in a backwards-compatible manner, and
+1. PATCH version when you make backwards-compatible bug fixes.
 
 Additional labels for pre-release, release candidate and build metadata are available as extensions to the RELEASE.MAJOR.MINOR.PATCH format.
 
@@ -34,12 +34,13 @@ Given 1.0.0.0 as the first version for a Production Release:
   * Major UX change that impacts in a significant way the usability will increment version to 2.0.0.0.
 * MAJOR:
   * Any Breaking Code Change will increment version to 1.1.0.0.
-  * UX change that impacts the usability will increment version to 1.1.0.0.  
+  * UX change that impacts the usability will increment version to 1.1.0.0.
 * MINOR:
   * New Features will increment version to 1.0.1.0.
   * Refracting Code that do not impact Public Api will increment version to 1.0.1.0.
   * Deprecating Code that do not impact Public Api will increment version to 1.0.1.0.
   * Removing Code that do not impact Public Api will increment version to 1.0.1.0.
+  * UX change that not impacts the usability will increment version to 1.0.1.0.
 * PATCH:
   * Security Fix(es) will increment version to 1.0.0.1.
   * Bug Fix(es) will increment version to 1.0.0.1.

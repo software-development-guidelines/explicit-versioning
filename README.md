@@ -69,4 +69,82 @@ I call this system ["CMS Versioning (CMSver)](/VERSIONING.md) Under this scheme,
 
 
 
+
+
+
+We recently moved this blog from WordPress to Jekyll and created a site structure from the plain vanilla install of Jekyll. The first thing I noticed after moving our posts from WordPress was the absence of plugins for adding share buttons in blog posts and pages, so I made a simple static one of my own.
+
+You can read about why we made the choice of moving from WordPress to Jekyll in my previous blog post. In this post I will share the code snippet I am using to create pretty little share buttons for sharing my posts on Twitter, Facebook and Google Plus. I will also show how you can extend it to add more services like Reddit, LinkedIn, Tumblr etc.
+Share buttons in Jekyll posts
+
+In order to add share buttons to my posts, I used the share URLs of the social networking sites such as Twitter, Facebook and Google Plus which simply use the GET parameters passed with the URL to create the share dialog.
+Step 1: Partial include file for share buttons
+
+I created a partial HTML file in _includes folder called _ share-page.html which I added at the end of the post or page layouts after content. Find below the contents of this file. Notice the use of liquid tags such as {{ page.title }} and {{ page.url }} to automatically fetch the title and URL of the current post or page.
+
+<div class="share-page">
+    Share this on &rarr;
+    <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a>
+    <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a>
+    <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+">Google+</a>
+</div>
+
+You can find these share buttons at the bottom of this post. Just for the sake of demo, I am including them here as well. They will be functional here too.
+
+Share this on → Twitter
+Facebook
+Google+
+Step 2: CSS styling the share buttons
+
+Next I added a bit of styling with CSS. I am giving my SCSS snippet below just in case you may want to style it in similar manner.
+
+.share-page {
+    text-align: center;
+    background: $secondary-color;
+    color: $light-color;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin: 1.5 * $spacing-unit 0;
+
+    a {
+        font-weight: 700;
+        color: #fff;
+        margin-left: 10px;
+
+        &:hover {
+            border-bottom: 1px dashed #fff;
+        }
+    }
+}
+
+This is how my share buttons ended up looking. Sweet and Simple!
+Share this on → Twitter
+Facebook
+Google+
+Additional Share URLs
+
+I didn’t want to create a long list of share buttons so I restricted myself to just three social sharing sites, however you can add more social networks by using the same technique. I am including the share URL structure of some of the popular social sharing sites below for your reference. Replace the URL, TITLE and other values as appropriate.
+Twitter
+
+http://twitter.com/share?text=<TITLE>&url=<URL>&via=<TWITTER-HANDLE>&related=<TWITTER-HANDLE>
+Facebook
+
+http://www.facebook.com/sharer.php?u=<URL>&p[title]=<TITLE>
+Google Plus
+
+https://plus.google.com/share?url=<URL>
+Pinterest
+
+http://pinterest.com/pin/create/button/?url=<URL>&description=<TITLE>
+LinkedIn
+
+http://www.linkedin.com/shareArticle?mini=true&url=<URL>&title=<TITILE>&summary=<DESCRIPTION>&source=<DOMAIN>
+Tumblr
+
+http://www.tumblr.com/share/link?url=<URL>&name=<TITLE>&description=<DESCRIPTION>
+Reddit
+
+http://www.reddit.com/submit?url=<URL>&title=<TITLE>
+
+
 [Start page](./)

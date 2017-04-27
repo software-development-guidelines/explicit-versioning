@@ -48,8 +48,9 @@ For this system to work, you first need to declare a public API. This may consis
 
 I call this system ["CMS Versioning (CMSver)](/VERSIONING.md) Under this scheme, version numbers and the way they change convey meaning about the underlying code and what has been modified from one version to the next.
 
-   <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script src="https://apis.google.com/js/platform.js" async defer></script>
+   <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>|<script src="https://apis.google.com/js/platform.js" async defer></script>
    <g:plus action="share"></g:plus>
+   ------ | ------
    fb
    <div class="fb-share-button" data-href="{{site.url}}{{page.url}}" data-layout="button_count" style="position: relative; top: -8px; left: 33px;"></div>
    1

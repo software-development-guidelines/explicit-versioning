@@ -61,7 +61,8 @@ I call this system ["CMS Versioning (CMSver)](/VERSIONING.md) Under this scheme,
    <g:plus action="share"></g:plus>
  
 
-------------
+---
+---
 
 
 [Start page](./)

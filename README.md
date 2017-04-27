@@ -92,25 +92,6 @@ I created a partial HTML file in _includes folder called _ share-page.html which
 
 
 
-http://twitter.com/share?text=<TITLE>&url=<URL>&via=<TWITTER-HANDLE>&related=<TWITTER-HANDLE>
-Facebook
-
-http://www.facebook.com/sharer.php?u=<URL>&p[title]=<TITLE>
-Google Plus
-
-https://plus.google.com/share?url=<URL>
-Pinterest
-
-http://pinterest.com/pin/create/button/?url=<URL>&description=<TITLE>
-LinkedIn
-
-http://www.linkedin.com/shareArticle?mini=true&url=<URL>&title=<TITILE>&summary=<DESCRIPTION>&source=<DOMAIN>
-Tumblr
-
-http://www.tumblr.com/share/link?url=<URL>&name=<TITLE>&description=<DESCRIPTION>
-Reddit
-
-http://www.reddit.com/submit?url=<URL>&title=<TITLE>
 
 
 [Start page](./)

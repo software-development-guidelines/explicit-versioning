@@ -48,7 +48,7 @@ For this system to work, you first need to declare a public API. This may consis
 
 I call this system ["CMS Versioning (CMSver)](/VERSIONING.md) Under this scheme, version numbers and the way they change convey meaning about the underlying code and what has been modified from one version to the next.
 
-
+   <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ///// old---
 1. RELEASE version when you make incompatible API changes,

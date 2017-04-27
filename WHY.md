@@ -7,6 +7,7 @@ Index of pages:
 * [Why Explicit Versioning](/WHY.md)
 * [FAQ](/FAQ.md)
 * [ABOUT](/ABOUT.md)
+* [Who is using CMS Versioning?](/USERS.md)
 
 
 # Why Use CMS Versioning (CMSver)?

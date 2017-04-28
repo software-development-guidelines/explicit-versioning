@@ -44,9 +44,9 @@ As a solution to this problem, I propose a simple set of rules and requirements 
 
 These rules are based on but not necessarily limited to pre-existing widespread common practices in use in both closed and open-source software.
 
-For this system to work, you first need to declare a public API. This may consist of documentation or be enforced by the code itself. Regardless, it is important that this API be clear and precise. Once you identify your public API, you communicate changes to it with specific increments to your version number. Consider a version format of W.X.Y.Z (Release.Feature.Enhanced.Patch). Bug fixes not affecting the API increment the PATCH version, backwards compatible additions/changes increment the MINOR version, backwards incompatible changes increment the MAJOR version and backwards incompatible API changes increment the RELEASE version.
+For this system to work, you first need to declare a public API. This may consist of documentation or be enforced by the code itself. Regardless, it is important that this API be clear and precise. Once you identify your public API, you communicate changes to it with specific increments to your version number. Consider a version format of W.X.Y.Z (RELEASE.MAJOR.MINOR.PATCH). Bug fixes not affecting the API increment the PATCH version, backwards compatible additions/changes increment the MINOR version, backwards incompatible changes increment the MAJOR version and backwards incompatible API changes increment the RELEASE version.
 
-I call this system ["CMS Versioning (CMSver)](/VERSIONING.md) Under this scheme, version numbers and the way they change convey meaning about the underlying code and what has been modified from one version to the next.
+I call this system ["CMS Versioning (CMSver)"](/VERSIONING.md) Under this scheme, version numbers and the way they change convey meaning about the underlying code and what has been modified from one version to the next.
 
 ///// old---
 1. RELEASE version when you make incompatible API changes,

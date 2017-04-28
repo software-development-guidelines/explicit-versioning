@@ -12,6 +12,7 @@ Index of pages:
 
 # CMS Versioning (CMSver)
 
+
 Given 1.0.0.0 as the first version for a Production Release:
 
 * RELEASE:
@@ -20,6 +21,7 @@ Given 1.0.0.0 as the first version for a Production Release:
 * MAJOR:
   * Any Breaking Code Change will increment version to 1.1.0.0.
   * UX change that impacts the usability will increment version to 1.1.0.0.
+  * Major documentation changes will increment version to 1.1.0.0.
 * MINOR:
   * New Features will increment version to 1.0.1.0.
   * Refracting Code that do not impact Public Api will increment version to 1.0.1.0.

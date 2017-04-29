@@ -56,6 +56,21 @@ Deprecating existing functionality is a normal part of software development and 
 
 No, but use good judgment. A 255 character version string is probably overkill, for example. Also, specific systems may impose their own limits on the size of the string.
 
+## Alternaive options
+In consumer applications, the version is not only a version, but also a marketing asset.
+
+* Firefox and Chrome and increment their major version number at each release. This results in ridiculously high version numbers. A browser with a higher version number must simply be better than a browser with a lower version number, right?
+* The major version number of Apple's operating system OS X has become part of the name (X is 10 in Roman numerals), making the minor version number the effective major version number.
+* The Ubuntu operating system uses a year.month.patchlevel versioning scheme.
+* The Linux kernel bumped the version number from 2.6.39 to 3.0.0 to commemorate Linux' 20th anniversary.
+
+So, many applications are not well served by Semver. Pick a versioning scheme that's good for your users (regardless of whether these users are fellow programmers or consumers), and keep it consistent.
+
+* http://semver.org/
+* http://blog.legacyteam.info/2015/12/romver-romantic-versioning/
+* http://sentimentalversioning.org/
+* http://calver.org/
+
 
 
 ---

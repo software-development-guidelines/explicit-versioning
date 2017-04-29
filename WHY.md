@@ -26,6 +26,7 @@ In other words, we're only setting some guidlines (which can and WILL be broken,
 
 While that might be the case, there is also the need for the software that deals the auto-updates to make backups before updating (configurable) and store them (by default) for a month (configurable). Because that's not only a matter of whether the files update well, but also a question of the integrity of the server and other possible security gaps.
 
+SimVer works so well because it was one of the best guidlines at the moment of it's conception, but that does not mean that it's still one of the best options out there, but only that it's one of the most used ones.
 
 //7
 

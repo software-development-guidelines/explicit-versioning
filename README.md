@@ -16,16 +16,16 @@ Index of pages:
 
 # <a name="Summary"></a>Summary
 
-Given a version number RELEASE.MAJOR.MINOR.PATCH, increment the:
+Given a version number MACRO.MAJOR.MINOR.PATCH, increment the:
 
 1. MACRO is incremented when changing the API, changing the UX, switching to a new recommended version or ending support for previous versions,
 1. MAJOR is incremented when adding, changing or removing code while breaking compatibility with previous versions or changing the UX,
 1. MINOR is incremented when adding, changing or removing code while remaining compatible with previous versions,
-1. FIX or Micro?? is incremented when a bug is fixed, or a security gap is solved.
+1. FIX or Micro or Patch?? is incremented when a bug is fixed, or a security gap is solved.
 
 Additional labels for pre-release, release candidate and build metadata are available as extensions (MODIFIER) to the MACRO.MAJOR.MINOR.PATCH format.
 
-**If you'd like to leave feedback, please [open an issue on GitHub](https://github.com/colomet/CMSver/issues).**
+**If you'd like to leave feedback, please [open an issue on GitHub](https://github.com/Software-Development-Guidelines/CMSversioning/issues).**
   
 # - CMS Versioning (CMSver) DRAFT -  
 

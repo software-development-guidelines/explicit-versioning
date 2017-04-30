@@ -15,7 +15,7 @@ The PHP CMS Versioning is created by [Antonio Devís](https://github.com/colomet
 
 The PHP CMS Versioning is a fork of [Semantic Versioning](http://semver.org/) specification is authored by [TomPreston-Werner](http://tom.preston-werner.com), inventor of Gravatars and cofounder of GitHub.
 
-If you'd like to leave feedback, please [open an issue on GitHub](https://github.com/colomet/CMSver/issues).
+If you'd like to leave feedback, please [open an issue on GitHub](https://github.com/Software-Development-Guidelines/CMSversioning/issues).
 
 
 # License
@@ -25,7 +25,7 @@ If you'd like to leave feedback, please [open an issue on GitHub](https://github
 
 # Support or Contact
 
-Having trouble with PHP CMS Versioning? Check out our [issues](https://github.com/colomet/CMSver/issues)pages or [contact me](https://www.linkedin.com/in/antonio-devis-lopez/) and we’ll help you sort it out.
+Having trouble with PHP CMS Versioning? Check out our [issues](https://github.com/Software-Development-Guidelines/CMSversioning/issues)pages or [contact me](https://www.linkedin.com/in/antonio-devis-lopez/) and we’ll help you sort it out.
 
 
 

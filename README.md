@@ -3,11 +3,11 @@ Index of pages:
 
 * [Summary](/README.md#Summary)
 * [Introduction](/README.md#Introduction)
-* [CMS Versioning (CMSver)](/VERSIONING.md)
+* [Explicit Versioning](/VERSIONING.md)
 * [Why Explicit Versioning](/WHY.md)
 * [FAQ](/FAQ.md)
 * [ABOUT](/ABOUT.md)
-* [Who is using CMS Versioning?](/USERS.md)
+* [Who is using Explicit Versioning?](/USERS.md)
 
 # <a name="Summary"></a>Summary
 
@@ -39,7 +39,7 @@ These rules are based on but not necessarily limited to pre-existing widespread 
 
 For this system to work, you first need to declare a public API. This may consist of documentation or be enforced by the code itself. Regardless, it is important that this API be clear and precise. Once you identify your public API, you communicate changes to it with specific increments to your version number. Consider a version format of W.X.Y.Z (DISRUPTIVE.INCOMPATIBLE.COMPATIBLE.FIX). Bug fixes not affecting the API increment the FIX version, backwards compatible additions/changes increment the COMPATIBLE version, backwards incompatible changes increment the INCOMPATIBLE version and backwards incompatible API changes increment the DISRUPTIVE version.
 
-I call this system ["CMS Versioning (CMSver)"](/VERSIONING.md) Under this scheme, version numbers and the way they change convey meaning about the underlying code and what has been modified from one version to the next.
+I call this system ["Explicit Versioning"](/VERSIONING.md) Under this scheme, version numbers and the way they change convey meaning about the underlying code and what has been modified from one version to the next.
 
 
    <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

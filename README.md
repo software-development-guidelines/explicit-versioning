@@ -1,5 +1,3 @@
-# - CMS Versioning (CMSver) DRAFT -
-
 Index of pages:
 ---------------
 
@@ -11,23 +9,18 @@ Index of pages:
 * [ABOUT](/ABOUT.md)
 * [Who is using CMS Versioning?](/USERS.md)
 
-# - CMS Versioning (CMSver) DRAFT -
-
-
 # <a name="Summary"></a>Summary
 
 Given a version number MACRO.MAJOR.MINOR.PATCH, increment the:
 
-1. MACRO is incremented when changing the API, changing the UX, switching to a new recommended version or ending support for previous versions,
-1. MAJOR is incremented when adding, changing or removing code while breaking compatibility with previous versions or changing the UX,
-1. MINOR is incremented when adding, changing or removing code while remaining compatible with previous versions,
-1. FIX or Micro or Patch?? is incremented when a bug is fixed, or a security gap is solved.
+1. DISRUPTIVE is incremented when changing the API, changing the UX, switching to a new recommended version or ending support for previous versions,
+1. INCOMPATIBLE is incremented when adding, changing or removing code while breaking compatibility with previous versions or changing the UX,
+1. COMPATIBLE is incremented when adding, changing or removing code while remaining compatible with previous versions,
+1. FIX is incremented when a bug is fixed, or a security gap is solved.
 
-Additional labels for pre-release, release candidate and build metadata are available as extensions (MODIFIER) to the MACRO.MAJOR.MINOR.PATCH format.
+Additional labels for pre-release, release candidate and build metadata are available as extensions (MODIFIER) to the DISRUPTIVE.INCOMPATIBLE.MINOR.PATCH format.
 
 **If you'd like to leave feedback, please [open an issue on GitHub](https://github.com/Software-Development-Guidelines/CMSversioning/issues).**
-  
-# - CMS Versioning (CMSver) DRAFT -  
 
 # <a name="Introduction"></a>Introduction
 
@@ -44,15 +37,9 @@ As a solution to this problem, I propose a simple set of rules and requirements 
 
 These rules are based on but not necessarily limited to pre-existing widespread common practices in use in both closed and open-source software.
 
-For this system to work, you first need to declare a public API. This may consist of documentation or be enforced by the code itself. Regardless, it is important that this API be clear and precise. Once you identify your public API, you communicate changes to it with specific increments to your version number. Consider a version format of W.X.Y.Z (MACRO.MAJOR.MINOR.PATCH). Bug fixes not affecting the API increment the PATCH version, backwards compatible additions/changes increment the MINOR version, backwards incompatible changes increment the MAJOR version and backwards incompatible API changes increment the MACRO version.
+For this system to work, you first need to declare a public API. This may consist of documentation or be enforced by the code itself. Regardless, it is important that this API be clear and precise. Once you identify your public API, you communicate changes to it with specific increments to your version number. Consider a version format of W.X.Y.Z (DISRUPTIVE.INCOMPATIBLE.COMPATIBLE.FIX). Bug fixes not affecting the API increment the PATCH version, backwards compatible additions/changes increment the MINOR version, backwards incompatible changes increment the MAJOR version and backwards incompatible API changes increment the MACRO version.
 
 I call this system ["CMS Versioning (CMSver)"](/VERSIONING.md) Under this scheme, version numbers and the way they change convey meaning about the underlying code and what has been modified from one version to the next.
-
-///// old---
-1. MACRO version when you make incompatible API changes,
-1. MAJOR version when you add functionality in a backwards-incompatible manner,
-1. MINOR version when you add functionality in a backwards-compatible manner, and
-1. PATCH version when you make backwards-compatible bug fixes.
 
 
    <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

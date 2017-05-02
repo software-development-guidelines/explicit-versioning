@@ -15,7 +15,7 @@ The Explicit Versioning is created by [Antonio Devís](https://github.com/colome
 
 The Explicit Versioning is a fork of [Semantic Versioning](http://semver.org/) specification, authored by [TomPreston-Werner](http://tom.preston-werner.com), inventor of Gravatars and cofounder of GitHub.
 
-If you'd like to leave feedback, please [open an issue on GitHub](https://github.com/Software-Development-Guidelines/CMSversioning/issues).
+If you'd like to leave feedback, please [open an issue on GitHub](https://github.com/Software-Development-Guidelines/Explicit-Versioning/issues).
 
 
 # License
@@ -25,7 +25,7 @@ If you'd like to leave feedback, please [open an issue on GitHub](https://github
 
 # Support or Contact
 
-Having trouble with Explicit Versioning? Check out our [issues](https://github.com/Software-Development-Guidelines/CMSversioning/issues)pages or [contact me](https://www.linkedin.com/in/antonio-devis-lopez/) and we’ll help you sort it out.
+Having trouble with Explicit Versioning? Check out our [issues](https://github.com/Software-Development-Guidelines/Explicit-Versioning/issues)pages or [contact me](https://www.linkedin.com/in/antonio-devis-lopez/) and we’ll help you sort it out.
 
 
 

@@ -20,7 +20,7 @@ Given a version number MACRO.MAJOR.MINOR.PATCH, increment the:
 
 Additional labels for pre-release, release candidate and build metadata are available as extensions (MODIFIER) to the DISRUPTIVE.INCOMPATIBLE.MINOR.PATCH format.
 
-**If you'd like to leave feedback, please [open an issue on GitHub](https://github.com/Software-Development-Guidelines/CMSversioning/issues).**
+**If you'd like to leave feedback, please [open an issue on GitHub](https://github.com/Software-Development-Guidelines/Explicit-Versioning/issues).**
 
 # <a name="Introduction"></a>Introduction
 

@@ -70,6 +70,7 @@ So, many applications are not well served by Semver. Pick a versioning scheme th
 * http://blog.legacyteam.info/2015/12/romver-romantic-versioning/
 * http://sentimentalversioning.org/
 * http://calver.org/
+* https://make.wordpress.org/core/handbook/about/release-cycle/version-numbering/
 
 
 

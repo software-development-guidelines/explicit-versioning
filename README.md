@@ -13,7 +13,7 @@ Index of pages:
 
 Given a version number DISRUPTIVE.INCOMPATIBLE.COMPATIBLE.FIX, increment the:
 
-1. DISRUPTIVE is incremented when changing the API, changing the UX, switching to a new recommended version or ending support for previous versions,
+1. DISRUPTIVE is incremented when changing a significant number of end points in the API, changing the UX, switching to a new recommended version or ending support for previous versions,
 1. INCOMPATIBLE is incremented when adding, changing or removing code while breaking compatibility with previous versions or changing the UX,
 1. COMPATIBLE is incremented when adding, changing or removing code while remaining compatible with previous versions,
 1. FIX is incremented when a bug is fixed, or a security gap is solved.
